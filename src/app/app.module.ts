@@ -15,7 +15,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { AdminComponent } from './admin/admin.component';
+import {AdminComponent} from './admin/admin.component'
+import { DialogComponent } from './admin/dialog/dialog.component';
+import {MatIconModule} from '@angular/material/icon';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,8 @@ import { AdminComponent } from './admin/admin.component';
     AppliedJobsComponent,
     LoginComponent,
     RegisterComponent,
-    AdminComponent
+    AdminComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,10 @@ import { AdminComponent } from './admin/admin.component';
     MatInputModule,
     MatButtonModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
+    MatPaginatorModule
+    
     
   ],
   providers: [],
