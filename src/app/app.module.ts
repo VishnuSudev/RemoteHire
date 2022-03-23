@@ -19,6 +19,8 @@ import {AdminComponent} from './admin/admin.component'
 import { DialogComponent } from './admin/dialog/dialog.component';
 import {MatIconModule} from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -44,7 +46,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatDialogModule,
+    MatTableModule
     
     
   ],
